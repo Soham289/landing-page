@@ -1,0 +1,34 @@
+.links{
+    display:flex;
+    background-color: #1f2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.links div{
+    flex:1;
+}
+.second{
+    display:flex;
+}
+.second div{
+    flex:1;
+    justify-content: center;
+    justify-content: space-between;
+}
+.third{
+    display:flex;
+}
+.third .h2{
+    flex:1;
+    justify-content: center;
+}
+.third .h3{
+    flex:1;
+    justify-content: right;
+}
+.first{
+    display:flex;
+}
+.first div{
+    flex:1;
+}
