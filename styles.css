@@ -1,34 +1,137 @@
-.links{
-    display:flex;
-    background-color: #1f2937;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
-.links div{
-    flex:1;
-}
-.second{
-    display:flex;
-}
-.second div{
-    flex:1;
-    justify-content: center;
+
+nav {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 10%;
 }
-.third{
-    display:flex;
+
+nav .header {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
-.third .h2{
-    flex:1;
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 80px 10%;
+}
+
+.first .sub1 h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.first .sub1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+}
+
+.first .sub1 button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub2 img {
+    background-color: gray;
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 40px;
+}
+
+.second {
+    display: flex;
     justify-content: center;
+    gap: 40px;
+    padding: 30px 10%;
 }
-.third .h3{
-    flex:1;
-    justify-content: right;
+
+.info-box {
+    text-align: center;
 }
-.first{
-    display:flex;
+
+.info-box img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
 }
-.first div{
-    flex:1;
+
+
+.third {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 40px 15%;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.third h3 {
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.fourth {
+    background-color: #3882F6;
+    color: white;
+    text-align: center;
+    padding: 30px 10%;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 60%;
+}
+
+.fourth button {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
